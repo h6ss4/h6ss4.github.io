@@ -12,7 +12,6 @@ p {
 .sausagePie {
   border-style: dotted;
   border-width: 2px;
-  border-spacing: 100px 100px;
 }
 ol {
   list-style-type: lower-alpha;
