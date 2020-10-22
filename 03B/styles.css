@@ -9,3 +9,8 @@ p {
   font-size: 12px;
   color: green;
 }
+.sausagePie {
+  border-style: dotted;
+  border-width: 2px;
+  border-spacing: 100px 100px;
+}
