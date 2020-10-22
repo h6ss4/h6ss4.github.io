@@ -14,3 +14,9 @@ p {
   border-width: 2px;
   border-spacing: 100px 100px;
 }
+ol {
+  type: a;
+}
+ul {
+  list-style-type: square;
+}
