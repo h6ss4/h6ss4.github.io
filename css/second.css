@@ -1,4 +1,5 @@
 body {
+	margin-left: 50px rgba(19,56,78,0.2);
 	background-color: rgba(87,45,104,0.3);
 }
 h2 {
@@ -19,5 +20,5 @@ div {
 	width: 200px;
 	border: 12px dotted rgba(108,9,91,0.1);
 	padding: 20px;
-	margin: 50px;
+	margin: 0px 50px 50px 50px;
 }
