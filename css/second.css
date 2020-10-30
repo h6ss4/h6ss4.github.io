@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(87,45,104,0.3);
+    }
+h2 {
+    border-style:"dashed"
+    }
+ p {
+		background-color: rgba(48,95,14,0.2);
+		border-style: 4px solid red;
+		border-radius: 8px;
+    }
