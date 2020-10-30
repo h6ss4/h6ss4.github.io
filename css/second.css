@@ -17,7 +17,7 @@ a {
 div {
 	background-color: rgba(28,25,64,0.3);
 	width: 200px;
-	margin: 50px;
-	padding: 20px;
 	border: 12px dotted rgba(90,2,94,0.3);
+	padding: 20px;
+	margin: 50px;
 }
