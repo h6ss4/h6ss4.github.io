@@ -3,7 +3,7 @@ body {
 	box-sizing: content-box;
 	width: 100%;
 	font-family: Verdana, Arial, Times;
-	background-image: url("../img/beach.jpeg");
+	background-image: url("../img/beach.jpg");
 	background-size: 100%;
 	background-attachment: fixed;
 }
