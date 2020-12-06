@@ -202,9 +202,11 @@ iframe {
 	.blackbox {
 		display: block;
 		padding: 20px;
+		margin: auto;
 	}
 	.innerbox {
 		display: block;
+		margin: auto;
 	}
 	.brandicon {
 		display: block;
