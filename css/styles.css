@@ -194,6 +194,10 @@ tr:nth-child(even) {
 .fa {
   color: #FF982B;
 }
+iframe {
+	width: 400px;
+	height: 250px;
+}
 @media only screen and (max-width: 1000px) {
 	.blackbox {
 		display: block;
