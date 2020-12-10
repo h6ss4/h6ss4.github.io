@@ -16,6 +16,9 @@ h1 {
 	text-shadow: 0 0 10px #000, 0 0 20px #f00, 0 0 30px #aa4422;
 	color: transparent;
 }
+h6 {
+	font-size: 250%;
+}
 input[type=text], select {
 	background-color: #FF982B;
 	width: 100%;
