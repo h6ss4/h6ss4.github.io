@@ -100,9 +100,16 @@ figcaption {
 	padding: 100px;
 	background-image: linear-gradient(to bottom right, rgba(0,0,0,0.8), rgba(0,0,0,0.5));
 }
+.innerbox div {
+	clear: both;
+}
 .merch {
 	display: grid;
 	grid-template-columns: auto auto;
+}
+.merch img {
+	float: left;
+	clear: both;
 }
 #imgbox {
 	margin-top: 80px;
@@ -190,7 +197,7 @@ tr:nth-child(even) {
 .brandicon {
 	display: inline;
 	list-style-type: none;
-	font-size: 350%;	
+	font-size: 350%;
 	padding: 0 10px 0 10px;
 	border-radius: 10px;
 }
@@ -200,33 +207,33 @@ tr:nth-child(even) {
 iframe {
 	width: 400px;
 	height: 250px;
+	border: 3px solid #aa4422;
+	border-radius: 8px;
+}
+@media only screen and (max-width: 1400px) {
+	.innerbox {
+		grid-template-columns: auto auto;
+	}
+	#imgbox {
+		grid-template-columns: auto auto;
+	}
+	body  {
+		background-size: cover;
+	}
 }
 @media only screen and (max-width: 1000px) {
-	h1 {
-		font-size: 1100%;
-	}
-	.blackbox {
-		display: block;
-		padding: 20px;
-		margin: auto;
-	}
-	.innerbox {
-		display: block;
-		margin: auto;
-	}
-	.brandicon {
+	.blackbox, .innerbox {
 		display: block;
 		margin: auto;
 	}
 	.navigation {
-		margin: auto;
 		padding: 3px;
+		margin: auto;
 	}
 	.merch {
 		grid-template-columns: auto;
-	}
-	#imgbox {
-		grid-template-columns: auto;
+		float: left;
+		clear: both;
 	}
 	.nodsp {
 		display: none;
@@ -239,8 +246,18 @@ iframe {
 		height: 170px;
 	}
 }
-@media only screen and (max-width: 1400px) {
-	body  {
-		background-size: cover;
+@media only screen and (max-width: 600px) {
+	.blackbox, .innerbox {
+		padding: 20px;
+	}
+	#imgbox {
+		grid-template-columns: auto;
+	}
+	h1 {
+		font-size: 1100%;
+	}
+	.brandicon {
+		display: block;
+		margin: auto;
 	}
 }
